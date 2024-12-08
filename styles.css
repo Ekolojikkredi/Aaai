@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f7e5; /* Açık yeşil arka plan */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #388e3c; /* Yeşil header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left-column {
+    width: 30%;
+    background-color: #c8e6c9; /* Yeşil tonlu sol menü */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.left-column h2 {
+    color: #388e3c; /* Yeşil başlık rengi */
+}
+
+.right-column {
+    width: 68%;
+    background-color: #a5d6a7; /* Daha açık yeşil sağ içerik */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #388e3c; /* Buton rengi yeşil */
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #2c6b29; /* Buton hover rengi */
+}
+
+#page-content {
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #388e3c; /* Bağlantı rengi yeşil */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2c6b29; /* Bağlantı hover rengi */
+}
